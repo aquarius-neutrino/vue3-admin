@@ -18,6 +18,12 @@ const routes = [
         name: 'User',
         component: () => import('../views/User.vue'),
         meta: { title: '用户管理' }
+      },
+      {
+       path: 'ai-chat',
+       name: 'AiChat',
+       component: () => import('../views/AiChat.vue'),
+       meta: { title: 'AI 助手' }
       }
     ]
   },

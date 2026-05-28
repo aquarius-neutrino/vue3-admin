@@ -18,6 +18,10 @@
           <template #icon><User /></template>
           <span>用户管理</span>
         </el-menu-item>
+        <el-menu-item index="/ai-chat">
+          <template #icon><ChatDotRound /></template>
+          <span>AI 助手</span>
+        </el-menu-item>
       </el-menu>
     </el-aside>
     
