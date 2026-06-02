@@ -1,4 +1,6 @@
 <template>
+  <!-- 3D 星空背景 -->
+  <StarBackground />
   <div class="home">
     <el-row :gutter="20">
       <el-col :span="8">
@@ -39,6 +41,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import * as echarts from 'echarts'
+import StarBackground from '../components/StarBackground.vue'
 
 // 统计数据
 const userTotal = 1286

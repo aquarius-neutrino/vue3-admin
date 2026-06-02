@@ -1,4 +1,5 @@
 <template>
+  
   <div class="login-box">
     <el-card class="login-card">
       <h2 class="title">后台管理系统登录</h2>
@@ -22,6 +23,7 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useUserStore } from '../store/user'
 
+
 const router = useRouter()
 const userStore = useUserStore()
 const loginForm = ref({
@@ -43,12 +45,14 @@ const handleLogin = () => {
 
 <style scoped>
 .login-box{
-  width: 100vw;
-  height: 100vh;
+  width: 99vw;
+  height: 99vh;
   background-color: #f5f7fa;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: relative;
+  z-index: 10; */
 }
 .login-card{
   width: 400px;
