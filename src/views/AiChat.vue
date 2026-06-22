@@ -33,7 +33,7 @@ const loading = ref(false)
 // ====================
 // 填入你自己的阿里云 KEY
 // ====================
-const API_KEY = 'sk-6bed281f7ce6485a99865f0d6d355aad'
+const API_KEY = ''
 
 // 保存聊天记录到本地
 const saveToLocal = () => {
